@@ -51,7 +51,7 @@ director_earnings = directors_totals(source)
 
 while i < list_of_directors(source).length do
   director_name = director_list[i]
-  total += director_earnings[director_name]
+  total += directors_totals(source)[director_name]
   i += 1
 end
 total
