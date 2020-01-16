@@ -48,7 +48,7 @@ i=0
 total = 0
 
 while i < list_of_directors(source).length do
-  director_name = director_list[i]
+  director_name = list_of_directors(source)[i]
   total += directors_totals(source)[director_name]
   i += 1
 end
